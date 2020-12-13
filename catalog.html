@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <script src="./JS/script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="main_header">
+      <div class="container">
+        <nav>
+          <img src="./img/logo.png" alt="Nerds logo" />
+          <ul>
+            <li>Студия</li>
+            <li>Клиенты</li>
+            <li>Магазин</li>
+            <li>Контакты</li>
+          </ul>
+          <div class="cart">
+            <a href="#">
+              <img src="./img/cart.png" alt="cart image" width="35" />
+              Корзина
+            </a>
+          </div>
+        </nav>
+        <div>
+          <h1>Добро пожаловать в магазин готовых макетов</h1>
+        </div>
+      </div>
+    </header>
+    <main class="container">
+      <aside>
+        <div>
+          <form novalidate>
+            <fieldset>
+              <legend>Стоимость:</legend>
+              <div class="price_range">
+                <input type="range" name="cost" id="cost" />
+              </div>
+              <div>
+                <span>От</span>
+                <input type="text" />
+                <span>До</span>
+                <input type="text" />
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend>Сетка:</legend>
+              <input
+                type="radio"
+                name="adaptive"
+                id="radio1"
+                value="adaptive"
+              />
+
+              <label for="radio1">Адаптивная</label>
+
+              <input type="radio" name="fixed" id="radio2" value="fixed" />
+
+              <label for="radio2">Фиксированная</label>
+
+              <input type="radio" name="ruber" id="radio3" value="ruber" />
+
+              <label for="radio3">Резиновая</label>
+            </fieldset>
+            <fieldset>
+              <legend>Особенности:</legend>
+              <input
+                type="checkbox"
+                name="slider"
+                id="checkbox1"
+                checked
+                value="slider"
+              />
+
+              <label for="checkbox1">Слайдер</label>
+
+              <input
+                type="checkbox"
+                name="advantages"
+                id="checkbox2"
+                value="advantages"
+              />
+
+              <label for="checkbox2">Блок преимуществ</label>
+
+              <input
+                type="checkbox"
+                name="news"
+                id="checkbox3"
+                checked
+                value="news"
+              />
+
+              <label for="checkbox3">Новости</label>
+
+              <input
+                type="checkbox"
+                name="galery"
+                id="checkbox4"
+                value="galery"
+              />
+
+              <label for="checkbox4">Галерея</label>
+
+              <input type="checkbox" name="cart" id="checkbox5" value="cart" />
+
+              <label for="checkbox5">Корзина</label>
+            </fieldset>
+            <div>
+              <button type="submit">Показать</button>
+            </div>
+          </form>
+        </div>
+      </aside>
+      <div class="sort_menu">
+        <span>Сортировать:</span>
+        <ul>
+          <li><a href="#">По цене</a></li>
+          <li><a href="#">По типу</a></li>
+          <li><a href="#">По функционалу</a></li>
+          <li>
+            <div><a href="#">up</a></div>
+          </li>
+          <li>
+            <div><a href="#">down</a></div>
+          </li>
+        </ul>
+      </div>
+      <div class="item_list">
+        <div class="item">
+          <a href="#"><img src="#" alt="layout1" /></a>
+        </div>
+        <div class="item">
+          <a href="#"><img src="#" alt="layout2" /></a>
+        </div>
+        <div class="item">
+          <a href="#"><img src="#" alt="layout3" /></a>
+        </div>
+        <div class="item">
+          <a href="#"><img src="#" alt="layout4" /></a>
+        </div>
+        <div class="item">
+          <a href="#"><img src="#" alt="layout5" /></a>
+        </div>
+        <div class="item">
+          <a href="#"><img src="#" alt="layout6" /></a>
+        </div>
+      </div>
+      <div class="page_changer">
+        <div class="page_changer_item">
+          <a href="#">1</a>
+        </div>
+        <div class="page_changer_item">
+          <a href="#">2</a>
+        </div>
+        <div class="page_changer_item">
+          <a href="#">3</a>
+        </div>
+        <div class="page_changer_next">
+          <a href="#">Следующая</a>
+        </div>
+      </div>
+    </main>
+    <footer class="main_footer">
+      <div class="destination">
+        <div class="container">
+          <div>
+            <strong>NЁRDS DESIGN STUDIO</strong>
+            <p>191186, Санкт-петербург, ул. Б.Конюшенная, д. 19/8</p>
+            <p>тел. +7 (812) 275-75-75</p>
+            <div class="btn_contact_us">
+              <a href="#">Напишите нам</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer_social">
+        <div class="container">
+          <div>
+            <a class="social_btn social_btn_vk" href="#">Vkontakte</a>
+            <a class="social_btn social_btn_fb" href="#">Facebook</a>
+            <a class="social_btn social_btn_inst" href="#">Instagram</a>
+          </div>
+          <div>
+            <b>Давайте дружить, это выгодно!</b>
+            <p>Скидка 10% для друзей из социальных сетей.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
